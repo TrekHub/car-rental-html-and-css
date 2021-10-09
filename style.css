@@ -139,16 +139,32 @@ header {
   width: 70%;
   text-align: center;
 }
+#badge {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: auto;
+  color: white !important;
+  font-weight: bold;
+}
 .how h3 ,  .col-info h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bolder;
   color: #a5a5a5;
 }
 .how h1 , .col-info h1 {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bolder;
   margin-bottom: 15px;
+}
+
+.how p , .col-info p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #a5a5a5;
 }
 #line {
   width: 100px;
@@ -171,17 +187,9 @@ header {
 .icon-card h4{
   font-weight: bolder;
   color: black;
-  font-size: 20px;
+  font-size: 28px;
 }
-#badge {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: blue;
-  margin: auto;
-  color: white;
-  font-weight: bold;
-}
+
 .icon-bg {
   background-color: #ee5b2a;
   height: 100px;
@@ -213,8 +221,62 @@ header {
   position: relative;
   
 }
-/* .col-info h3 {
-   font-size: 18px;
-  font-weight: bolder;
-  color: #a5a5a5;
-} */
+.col-info {
+  width: 40%;
+}
+.col-info ul {
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: left !important;
+}
+
+.col-info ul li::before {
+  content: ".";
+ 
+  color: red;
+  font-weight: bold;
+  font-size: 130px;
+  display: inline-block; 
+  width: 90px;
+  margin-left: -20px;
+}
+
+
+/* Last section */
+.last-section {
+  height: 600px;
+  background-image: url("./images/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 60px;
+}
+
+.last-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+align-items: center;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+  
+}
+
+footer {
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: rgb(34, 33, 33);
+  padding: 20px;
+}
+
