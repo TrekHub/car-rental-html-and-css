@@ -238,10 +238,10 @@ header {
  
   color: red;
   font-weight: bold;
-  font-size: 130px;
+  font-size: 100px;
   display: inline-block; 
   width: 90px;
-  margin-left: -20px;
+  margin-left: 5px;
 }
 
 
